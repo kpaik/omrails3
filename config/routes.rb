@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   as :user  do
   	get "signin" => 'devise/sessions#new'
   	delete "signout" => 'devise/registrations#destory'
-  	get "signup" => 'devise/registrations#ew'
+  	get "signup" => 'devise/registrations#new'
   end
 
   root 'pages#home'
