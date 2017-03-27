@@ -2,4 +2,10 @@
 @import "bootstrap";
 
 @import "pages";
+@import "signin_and_signup";
 
+
+.navbar-nav > li{
+  padding: 15px 15px;
+  line-height: 20px;
+ }
