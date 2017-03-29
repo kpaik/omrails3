@@ -1,11 +1,7 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
-@import "bootstrap";
 
+
+@import "bootstrap";
 @import "pages";
 @import "signin_and_signup";
-
-
-.navbar-nav > li{
-  padding: 15px 15px;
-  line-height: 20px;
- }
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
